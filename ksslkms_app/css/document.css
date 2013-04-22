@@ -1,0 +1,249 @@
+@charset 'UTF-8';
+
+/* Layout  ---------------------------------------------*/
+	body {
+		font-family:'MS UI Gothic',Verdana,sans-serif;
+		font-size:100%;
+	}
+	
+/* Link  ----------------------------------------------------------*/
+	a,a:link,a:hover,a:active{  }
+	a:hover    { text-decoration:none; }
+	a img      { padding:2px; }
+	
+/* Inline Tags  ---------------------------------------------------*/
+	em         { font-style:normal; }
+	pre        { padding:10px; overflow:scroll; }
+	
+/* Header  --------------------------------------------------------*/
+	#header-content       { width:440px; }
+	#header #header-name  { font-size:1.2em; }
+	#site-navigation-top  { font-size:0.6em; text-align:right; padding-right:8px; padding-top:5px; }
+	#content              { padding-bottom:50px; }
+	#header-description   { font-size:0.8em; margin-bottom:20px; }
+	#header-subtitle,
+	#header-subdescription{ font-size:0.9em; }
+	
+	#header               { position:relative; }
+	#header-side          { position:absolute; left:470px; top:100px; width:500px; }
+	
+/* Ducument   -----------------------------------------------------*/
+	#documents h2 a{ visibility:hidden; }
+	
+/* Tool Bar ---------------------------------------------*/
+	#toolbar{
+		position:absolute;
+		left:725px;
+		top:25px;
+		z-index:20;
+	}
+	.tools .ti{
+		width:140px;
+	}
+
+/* Navigation Bar-----------------------------------------*/
+	ul.navi_menu {
+		height: 30px;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		border-style:solid;
+		border-width:0 0;
+		margin:0 4px;
+	}
+	ul.navi_menu li a { text-decoration: none; }
+	ul.navi_menu li a:hover,
+	ul.navi_menu li a.current
+	                  { height: 22px; }
+	ul.footinfo       { height: 22px; margin:0 auto; }
+	ul.footinfo       { }
+	ul.footinfo li    { font-size:0.8em; }
+	
+	ul.navi_menu li ul,
+	ul.footinfo  li ul
+	                  { display:none; }
+	                  
+	div.navi_nextprev_wrap
+	                  { font-size:90%; }
+	div.navi_breadcrumb_wrap
+	                  { font-size:90%; }
+
+	
+/* Ducument Header  -----------------------------------------------*/
+	#documents h1{
+		font-size:1.1em;
+		padding:2px;
+		text-indent:5px;
+		height:24px;
+		clear:both;
+	}
+	#documents h2{
+		padding-left:0.5em; 
+		padding-top:3px;
+		margin:3em 0 1em;
+		font-size:1.1em;
+		clear:both;
+	}
+	#documents > h2:first-child{ margin-top:0; }
+	
+	#documents h2 a  { text-decoration:none; }
+	#documents h3    { font-weight:bold; }
+	
+	h2#alphabottom-header { display:none; }
+/* Ducument Inner  -----------------------------------------------*/
+	ul, ol  { list-style-position: outside; padding-left:10px; }
+	ol      { margin-left:10px; }
+	
+	#documents { line-height:1.4em; }
+	.indent {
+		width:90%;
+		font-size:0.86em;
+		padding-left:10px;
+		margin-left:10px;
+	}
+	.indent ol,
+	.indent ul    { width:80%; padding:0.25em 10%; }
+	.indent dl    { width:90%; margin:0.25em 5%; }
+	.indent dd ul,
+	.indent dd ol { width:90%; padding:0 5%; }
+	.indent dd    { margin:2px 5px 2px 3em; }
+	.indent dt    { padding:3px; padding-left:10px; margin-top:20px; }
+	.indent dl > dt:first-child
+	              { margin-top:0; }
+	.indent dl dd { display:list-item; list-style-type: disc; }
+	
+	.indent hr    { clear:both; margin:0.5em 0; height:1px;}
+	
+	#documents p.topimg  { width:100%; text-align:center; }
+	#documents img.w400  { width:400px; }
+	#documents img.left  { float:left ; margin-right:10px; margin-bottom:10px; }
+	#documents img.right { float:right; margin-left :10px; margin-bottom:10px; }
+	
+	
+	#documents table caption { text-align:center; }
+	#documents table     { margin:0 5%; font-size:0.9em; width:90%; }
+	#documents table th,
+	#documents table td  { padding:2px; }
+	
+	#documents .twitter_button     { text-align:right; margin:0; }
+	#documents .twitter_button img { width:160px; height:27px; }
+	
+	div.question_submit { text-align:center; margin:20px 0px; }
+	div.question_submit input.button
+	                    { width: 150px; }
+	table.question ul   { list-style:none; margin-left:0; }
+	table.question label input { margin-right:3px; }
+	                    
+	#documents table textarea  { width:80%;height:15em; }
+	.planlist ul { margin-left:15px; padding-left:10px; }
+	
+	
+/* Widgets  -----------------------------------------------*/
+
+	#alpha-inner, #beta-inner, #gamma-inner {
+	    padding-right: 10px;
+	    padding-left: 10px;
+	}
+	.widget {
+		font-size:1em;
+	}
+	.widget a { text-decoration:none; }
+	
+	
+	h2#beta-header,
+	h2#gamma-header,
+	h2#alphatop-header       { display:none; }
+	h3.widget-header         { padding:4px; text-indent:5px; }
+	#beta  h3.widget-header  { } 
+	#gamma h3.widget-header  { }
+	#beta h3.widget-header,
+	#gamma h3.widget-header  { font-weight:bold; }
+	
+	.widget-content  { 
+		font-size:0.76em;
+		letter-spacing:0px;
+		padding:5px;
+	}
+	
+	#content .widget-content li {
+		height:20px;
+		padding:3px 3px;
+		margin:0;
+	}
+	#content .widget-content li.dir {
+		height:auto;
+		overflow:visible;
+	}
+	#content .widget-content li a{
+		width:100%;
+		height:100%;
+		display:block;
+	}
+	#content .widget-content li.dir a{
+		height:20px;
+	}
+	#content .widget-content li span {
+		width:100%;
+		height:20px;
+		display:block;
+	}
+	#content .widget-updates .widget-content li * { 
+		width:auto; 
+		display:inline; 
+	}
+	
+	span.date { margin-right:10px; }
+	
+	#documents .page_guid { font-size:0.9em; }
+	
+	
+/* Profile  ---------------*/
+	.widget-profile dt {
+		display:block;
+		float:left;
+		clear:both;
+		min-width:35px;
+		padding:2px 2px 2px 5px;
+	}
+	.widget-profile dd {
+		margin-left:35px;
+		padding:2px 5px 2px 2px;
+		display:block;
+	}
+	.widget-profile dt.icon {
+		float:none;
+		clear:both;
+		width:100%;
+		text-align:center;
+	}
+	.widget-profile img.user-pic {
+		padding:2px;
+	}
+	
+/* Adsense  ---------------*/
+	#beta .widget-commercial li{
+		text-align:center;
+	}
+	#gamma .widget-commercial li{
+		text-align:center;
+	}
+	#alpha .widget-commercial {
+		text-align:center;
+	}
+	#content .widget-commercial li{
+		height:auto;
+	}
+
+/* W3C  ---------------*/
+	.widget-w3c li{
+		width:100%;
+		text-align:center;
+	}
+	.widget-w3c {
+		position:absolute;
+		width:100px;
+		right:20px;
+		top:30px;
+	}
+
+
+

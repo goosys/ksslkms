@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+	
+/* Widget Header   --------------------------------------*/
+
+	#beta  h3.widget-header,
+	#gamma h3.widget-header
+	              {  }
+	
+	h3.widget-header
+	              { background:url(widget-header.png) left top no-repeat; padding-left:20px; height:25px; }
+	/*
+	#content .widget-content
+	              { background:url(widget-content.png) repeat-y; }
+	#content .widget-footer
+	              { background:url(widget-footer.png) left bottom no-repeat; height:8px; }
+	              
+	h3.widget-header,.widget-footer { display:none; }
+	*/
+	
+	
+/* Document Header --------------------------------------*/
+	
+	/*
+	h2#STEP1：ダウンロード・テスト,
+	h2#STEP2：基本設定を行う,
+	h2#STEP3：トップページを作成する,
+	h2#STEP4：企業情報ページを作成する,
+	h2#STEP5：ナビゲーションバーを作成する
+	              { text-indent:-9999px; width:540px; height:40px; }
+	              
+	h2#STEP1：ダウンロード・テスト
+	              { background-image:url(h2-step1.png); }
+	h2#STEP2：基本設定を行う
+	              { background-image:url(h2-step2.png); }
+	h2#STEP3：トップページを作成する
+	              { background-image:url(h2-step3.png); }
+	h2#STEP4：企業情報ページを作成する
+	              { background-image:url(h2-step4.png); }
+	h2#STEP5：ナビゲーションバーを作成する
+	              { background-image:url(h2-step5.png); }
+	*/
+	
+
+/* Replace from text  --------------------------------------*/
+	.repimg       { background-repeat:no-repeat; text-indent:-9999px; display:block; }
+	.repimg *     { display:none; }
+
+	.repimg01     { background-image:url(o0240032011024147429.jpg); width:200px; height:200px; }
+	.hpdev        { background-image:url(hpdev.png); width:500px; height:60px; }
+	.apdev        { background-image:url(apdev.png); width:500px; height:60px; }

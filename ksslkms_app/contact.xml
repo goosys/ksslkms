@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="base.xsl"?>
+<!DOCTYPE Common [
+<!ENTITY Site SYSTEM "base.xml">
+<!ENTITY Update SYSTEM "update.xml">
+]>
+<xc:ApplicationData xmlns:xc="http://goosys.sakura.ne.jp/xslcms/" xmlns="http://www.w3.org/1999/xhtml">
+<xc:Common>
+&Site;
+&Update;
+</xc:Common>
+
+<!--
+	=========================
+	=== Page Setting
+	==========================
+-->
+<xc:Page>
+<xc:title>お問い合わせ</xc:title>
+<xc:subs>ここはお問い合わせページの説明が入ります</xc:subs>
+<xc:file>contact</xc:file>
+<xc:dir>.</xc:dir>
+</xc:Page>
+
+
+
+
+<xc:Contents>
+
+<!--
+	==================================================
+	=== Document Block
+	==================================================
+-->
+<xc:block layout="document">
+<xc:title>お問い合わせの前に</xc:title>
+<xc:description>
+<p>ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます</p>
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます<br/>
+</xc:description>
+</xc:block>
+
+
+<!--
+	==================================================
+	=== Document Block
+	==================================================
+-->
+<xc:block layout="document">
+<xc:title>よくある質問</xc:title>
+<xc:description>
+<p>ここはよくある質問のブロックです。ＨＴＭＬが使えます</p>
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます
+ここはよくある質問の説明用ブロックです。ＨＴＭＬが使えます<br/>
+</xc:description>
+</xc:block>
+
+
+
+
+<!--
+	==================================================
+	=== Document Block
+	==================================================
+-->
+<xc:block layout="document">
+<xc:title>お問い合わせ</xc:title>
+<xc:description>
+<p>ここはお問い合わせ方法のブロックです。ＨＴＭＬが使えます</p>
+<p>この下はウィジェット用に予め登録されたお問い合わせ用タグを呼び出しています。</p>
+<xc:getvar text="contact"/>
+</xc:description>
+</xc:block>
+
+</xc:Contents>
+
+</xc:ApplicationData> 

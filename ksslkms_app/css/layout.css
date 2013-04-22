@@ -1,0 +1,30 @@
+
+/* Layout ----------------------------------------------------------------- */
+#container-inner   { width: 940px; }
+
+/* Wide-Thin-Thin */
+.layout-wtt #alpha { width: 560px; }
+.layout-wtt #beta  { left: 190px; width: 190px; }
+.layout-wtt #gamma { right:190px; width: 190px; }
+
+/* Thin-Wide-Thin */
+.layout-twt #alpha { width: 560px; left :  190px; }
+.layout-twt #beta  { width: 190px; left : -560px; }
+.layout-twt #gamma { width: 190px; }
+
+/* Wide-Thin */
+.layout-wt #alpha  { width: 750px; }
+.layout-wt #beta   { width: 190px; }
+
+/* Thin-Wide */
+.layout-tw #alpha  { width: 750px; left :  190px; }
+.layout-tw #beta   { width: 190px; left : -750px; }
+
+/* Medium-Wide */
+.layout-mw #alpha  { width: 610px; left :  330px; }
+.layout-mw #beta   { width: 330px; left : -610px; }
+
+/* Wide-Medium */
+.layout-wm #alpha  { width: 610px; }
+.layout-wm #beta   { width: 330px; }
+

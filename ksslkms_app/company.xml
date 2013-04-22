@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="base.xsl"?>
+<!DOCTYPE Common [
+<!ENTITY Site SYSTEM "base.xml">
+<!ENTITY Update SYSTEM "update.xml">
+]>
+<xc:ApplicationData xmlns:xc="http://goosys.sakura.ne.jp/xslcms/" xmlns="http://www.w3.org/1999/xhtml">
+<xc:Common>
+&Site;
+&Update;
+</xc:Common>
+
+
+<!--
+	=========================
+	=== Page Setting
+	==========================
+-->
+<xc:Page>
+<xc:title>会社情報</xc:title>
+<xc:subs>ここは会社情報ページの説明が入ります</xc:subs>
+<xc:file>company</xc:file>
+<xc:dir>.</xc:dir>
+</xc:Page>
+
+<xc:Contents>
+
+
+<!--
+	==================================================
+	=== Document Block
+	==================================================
+-->
+<xc:block layout="document">
+<xc:title>代表挨拶</xc:title>
+<xc:description>
+<img src="css/faceicon.png" width="100" height="100" title="profile" class="left"/>
+<div>
+昭和10年10月10日生まれ<br/>
+札幌サンプル大学大学院卒<br/>
+株式会社北海道サンプル、北海道庁を経て<br/>
+株式会社札幌サンプル創立<br/>
+</div>
+<hr/>
+<p>ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます</p>
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます
+ここは社長さんに挨拶をもらってください。ＨＴＭＬが使えます<br/>
+</xc:description>
+</xc:block>
+
+
+
+<!--
+	==================================================
+	=== Profile Table Block
+	==================================================
+-->
+<xc:block layout="profile" data="Company">
+<xc:title>会社情報</xc:title>
+</xc:block>
+
+
+
+</xc:Contents>
+
+</xc:ApplicationData> 

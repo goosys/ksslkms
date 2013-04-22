@@ -1,0 +1,95 @@
+@charset 'UTF-8';
+
+/* Base,Link    -----------------------------------------------*/
+	body       { color:#666666; }
+	a,a:link,
+	a:visited,
+	a:hover,
+	a:active
+	           { color:#557FFF; }
+	#footer a,
+	#footer a:link,
+	#footer a:visited,
+	#footer a:hover,
+	#footer a:active
+	           { color:#666666; }
+	
+/* Images  -----------------------------------------------*/
+	
+	body          { background:repeat-x left top; }
+	#container    { background:center repeat-y; }
+	#header       { background:no-repeat center top; }
+	#content      { background:repeat-y; }
+	#footer       { background:no-repeat center top; }
+	#documents h1 { background-repeat:no-repeat; }
+	#documents h2 { background-repeat:no-repeat; }
+	.indent dt    { background-repeat:no-repeat; }
+	
+	#header       { height:300px; }
+	#content      { min-height:400px; }
+	#footer       { height:100px; }
+	
+	body          { background-image:url(bodytop-13.png); }
+	#container    { bbackground-image:url(back.png); }
+	#header       { background-image:url(header-13.png); }
+	#content      { bbackground-image:url(contentback.png); }
+	#footer       { bbackground-image:url(footer.png); }
+	#header ul.navi_menu 
+	              { background-image:url(style/naviback.png);  }
+	#header ul.navi_menu li a:hover,
+	#header ul.navi_menu li a.current 
+	              { background-image:url(style/navicurrent.png);  }
+	#documents h1 { bbackground-image:url(style/h1.png); }
+	#documents h2 { background-image:url(h2.png); width:540px; height:24px; }
+	.indent dt    { background-image:url(style/minititle.png); }
+	
+
+/* Header         ----------------------------------------*/
+	#site-navigation-top{  }
+	#header       { color:#666666; }
+	#header-name  { font-family:"メイリオ"; font-weight:bold; }
+	#footer       {  }
+	#documents h1 { color:#666666; }
+	#documents h2 { font-weight:bold; }
+ 	#documents h3 { color:#557FFF; }
+
+
+/* Document Inner-----------------------------------------*/
+	#documents table,
+	#documents table th,
+	#documents table td
+	               { border:1px solid #cccccc;}
+
+	#content .even { background-color:#f0f0f0; }
+	#content .odd  { background-color:#f9f9f9; }
+	#content .current{ background-color:#fff0f0; }
+	
+	#content table thead tr
+	               { background-color:#e0e0e0; }
+	#content .planlist li.even,
+	#content .planlist li.odd
+	               { background:none;  }
+	
+	.indent hr     { color:#cccccc; border:none; border-bottom:1px dashed #cccccc; }
+	.indent        {  }
+	.err_mes       { color:#D27059; }
+	.hint          { color:#A96E33; }
+	
+/* Navigation Bar-----------------------------------------*/
+	
+	ul.navi_menu   { border:solid 1px #cccccc; }
+	ul.navi_menu   { border-color: #cccccc; }
+	ul.navi_menu li{ }
+	ul.navi_menu li a 
+	               { color: #666666; }
+	ul.navi_menu li a:hover
+	               { ccolor: #ffffff; }
+	ul.navi_menu li a.current
+	               { ccolor: #ffffff; }
+	ul.footinfo li { border-style:solid; border-color:#cccccc; }
+	
+
+/* Document Inner-----------------------------------------*/
+	.widget-profile img.user-pic { border:1px solid #cccccc; }
+	
+	

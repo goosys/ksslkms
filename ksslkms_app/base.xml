@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xc:IncludeData xmlns:xc="http://goosys.sakura.ne.jp/xslcms/" xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+	==================================================
+	=== Layout Settings
+	==================================================
+-->
+<xc:Layout>
+ <xc:class>layout-twt</xc:class>
+ <xc:column alpha="1" beta="1" gamma="1"></xc:column>
+</xc:Layout>
+
+<!--
+	==================================================
+	=== Site Settings
+	==================================================
+-->
+<xc:Site>
+ <xc:id>blank001</xc:id>
+ <xc:name>black001</xc:name>
+ <xc:title>KsslKms基本セットサンプル・ここにサイト名</xc:title>
+ <xc:subtitle>ここにサイト説明</xc:subtitle>
+ <xc:domain>http://goosys.sakura.ne.jp/</xc:domain>
+ <xc:url>http://goosys.sakura.ne.jp/black001/</xc:url>
+ <xc:copyright>GOO SYSTEMS CO. 2010</xc:copyright>
+ <xc:developer>GOO SYSTEMS CO.</xc:developer>
+</xc:Site>
+
+<!--
+	==================================================
+	=== Company Settings
+	==================================================
+-->
+<xc:Company>
+ <xc:id>goosys</xc:id>
+ <xc:name>goosys</xc:name>
+ <xc:title title="名称">ここに会社名</xc:title>
+ <xc:reading title="読み">ここに会社名よみ</xc:reading>
+ <xc:genre title="業種">ここに業種</xc:genre>
+ <xc:subtitle title="業務内容">ここに業務内容</xc:subtitle>
+ <xc:since title="創立" date="2010-11-01">ここに創立</xc:since>
+ <xc:president title="代表">ここに代表者</xc:president>
+ <xc:personnel title="従業員" person="1">ここに従業員数</xc:personnel>
+ <xc:telephone title="電話番号">ここに電話番号</xc:telephone>
+ <xc:email title="メールアドレス">ここにメールアドレス</xc:email>
+ 
+</xc:Company>
+
+<!--
+	==================================================
+	=== Administrator Profile
+	==================================================
+-->
+<xc:Admin>
+ <xc:id>adm</xc:id>
+ <xc:name>JIANG4</xc:name>
+ <xc:image src="css/faceicon.png" width="100" height="100" title="profile"/>
+ 
+ <xc:nickname title="名前">ここに管理者</xc:nickname>
+ <xc:age title="年齢">ここに年齢</xc:age>
+ <xc:area ZIPcode="" title="所在地">
+  <xc:country name="japan" title="日本">
+  <xc:prefecture name="hokkaido" title="北海道">
+  <xc:city name="sapporo" title="札幌"/>
+  </xc:prefecture>
+  </xc:country>
+ </xc:area>
+ <xc:title title="一言">ここに一言</xc:title>
+ <xc:blog url="http://ameblo.jp/jiang4/" title="ブログ">ここにブログ名</xc:blog>
+ <xc:domain></xc:domain>
+ <xc:url></xc:url>
+ 
+</xc:Admin>
+
+<!--
+	==================================================
+	=== Site Map
+	==================================================
+-->
+<xc:SiteMap>
+
+ <xc:directory name="top">
+  <xc:page xml="index" tag="navibar footinfo">ホーム</xc:page>
+  <xc:directory name="sample" tag="navibar" xml="works/index" title="業務内容">
+   <xc:page xml="works/first" tag="">業務１</xc:page>
+   <xc:page xml="works/second" tag="">業務２</xc:page>
+  </xc:directory>
+  
+  <xc:page xml="contact" tag="navibar">お問い合わせ</xc:page>
+  <xc:page xml="company" tag="navibar footinfo">企業情報</xc:page>
+ </xc:directory> 
+ 
+ <xc:directory name="hidden">
+  <xc:page xml="row" tag="">特定商取引法</xc:page>
+  <xc:page xml="policy" tag="">個人情報保護方針</xc:page>
+ </xc:directory> 
+ 
+</xc:SiteMap>
+
+<!--
+	==================================================
+	=== Bookmark
+	==================================================
+-->
+<xc:Bookmark>
+ <xc:directory name="biz">
+  <xc:page url="http://www.pref.hokkaido.lg.jp/" tag="">北海道の公式ホームページ Hokkaido Government</xc:page>
+  <xc:page url="http://www.city.sapporo.jp/city/" tag="">札幌市役所公式ホームページ - City of Sapporo</xc:page>
+ </xc:directory>
+ <xc:directory name="dev">
+  <xc:page url="http://goosys.sakura.ne.jp/" tag="">GOO SYSTEMS CO.</xc:page>
+  <xc:page url="http://goosys.sakura.ne.jp/ksslkms2/" tag="">KsslKms2</xc:page>
+ </xc:directory>
+ 
+ <xc:directory name="hidden">
+  <xc:page url="" tag=""></xc:page>
+ </xc:directory>
+</xc:Bookmark>
+
+<!--
+	==================================================
+	=== Commercial
+	==================================================
+-->
+<xc:Commercial>
+ <xc:directory name="hidden">
+  <xc:page type="vc" sid="" pid="" width="" height="" tag=""></xc:page>
+  <xc:page type="ads" client="pub-" slot="" width="" height="" tag=""></xc:page>
+  <xc:page sid="" pid="" width="" height="" tag=""></xc:page>
+ </xc:directory>
+</xc:Commercial>
+
+
+<!--
+	==================================================
+	=== Free Text
+	==================================================
+-->
+<xc:Freetext>
+ <xc:setvar name="contact">
+	<div>
+		<p>お問い合わせはコチラから</p>
+		<ul>
+		<li>お電話：０１１－００００－００００</li>
+		<li>メール：sample@sample.com</li>
+		<li class="hint">営業時間：平日　10:00～20:00</li>
+		</ul>
+	</div>
+ </xc:setvar>
+ <xc:setvar name="stylechanger">
+	<div>
+		<p>スタイルシート</p>
+		<select id="stylechanger">
+		<option value="/KsslKms2/KsslKms/sample/blank/styles.css">White</option>
+		<option value="/KsslKms2/KsslKms/styles.css">KsslKms</option>
+		</select>
+	</div>
+	<br/>
+	<div>
+		<p>レイアウト</p>
+		<select id="layoutchanger">
+		<option value="layout-wtt">大-小-小</option>
+		<option value="layout-twt">小-大-小</option>
+		</select>
+	</div>
+ </xc:setvar>
+</xc:Freetext>
+
+
+<!--
+	==================================================
+	=== Widgets
+	==================================================
+-->
+<xc:Widgets>
+ <xc:block pos="beta" title="Information">
+  <xc:widget name="pages" dir="top">メニュー</xc:widget>
+  <xc:widget name="anchers">目次</xc:widget>
+  <xc:widget name="updates" hidden="">更新情報</xc:widget>
+ </xc:block>
+ <xc:block pos="gamma" title="Information">
+  <xc:widget name="profile">プロフィール</xc:widget>
+  <xc:widget name="bookmarks" dir="biz">ブックマーク</xc:widget>
+  <xc:widget name="bookmarks" dir="dev">簡単ＨＰ作成</xc:widget>
+  <xc:widget name="user" text="contact">ユーザーウィジェット</xc:widget>
+ </xc:block>
+ 
+ <xc:block pos="footer">
+  <xc:widget name="copyright"></xc:widget>
+ </xc:block>
+ 
+ <xc:block pos="hidden" installed="1">
+  <xc:widget name="user" text="stylechanger">スタイルシート</xc:widget>
+  <xc:widget name="bookmarks" dir="favorite">お気に入り</xc:widget>
+  <xc:widget name="bookmarks" dir="recommend">オススメ</xc:widget>
+  <xc:widget name="company">会社データ</xc:widget>
+  <xc:widget name="openhours">営業時間</xc:widget>
+ </xc:block>
+ <xc:block pos="hidden" installed="">
+  <xc:widget name="search">検索</xc:widget>
+  <xc:widget name="w3c"></xc:widget>
+ </xc:block>
+ 
+</xc:Widgets>
+
+</xc:IncludeData>

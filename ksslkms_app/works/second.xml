@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../base.xsl"?>
+<!DOCTYPE Common [
+<!ENTITY Site SYSTEM "../base.xml">
+<!ENTITY Update SYSTEM "../update.xml">
+]>
+<xc:ApplicationData xmlns:xc="http://goosys.sakura.ne.jp/xslcms/" xmlns="http://www.w3.org/1999/xhtml">
+<xc:Common>
+&Site;
+&Update;
+</xc:Common>
+
+<!--
+	=========================
+	=== Page Setting
+	==========================
+-->
+<xc:Page>
+<xc:title>２つめの業務内容ページ</xc:title>
+<xc:subs>ここは２つめの業務内容ページの説明が入ります</xc:subs>
+<xc:file>works/second</xc:file>
+<xc:dir>..</xc:dir>
+</xc:Page>
+
+<xc:Contents>
+
+
+
+<!--
+	==================================================
+	=== Document Block
+	==================================================
+-->
+<xc:block layout="document">
+<xc:title>業務内容２</xc:title>
+<xc:description>
+<p>ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます</p>
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます
+ここは２つめの業務内容ページの１つめブロックです。ＨＴＭＬが使えます<br/>
+</xc:description>
+</xc:block>
+
+
+
+
+
+</xc:Contents>
+
+</xc:ApplicationData> 
